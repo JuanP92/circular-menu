@@ -1,0 +1,36 @@
+.circle-menu{
+    position: relative;
+}
+
+.menu{
+    border-radius: 50%;
+    /* background-color: black; */
+    border-bottom: solid 0.1rem #77738CA1;
+    box-shadow: 0 0.2rem 0.2rem 0 #77738CA1;
+    color: rebeccapurple;
+    width: max-content;
+    max-width: 7rem;
+    font-size: 1em;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.submenu1{
+    width: max-content;
+}
+
+.submenu{
+    width: 2rem;
+    height: 2rem;
+    background-color: rebeccapurple;
+    position: absolute;
+    z-index: -1;
+}
+
+.circle-menu-icon svg{
+    width: 1rem;
+}
+
+.trapezoid {
+}
