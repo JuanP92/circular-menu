@@ -18,19 +18,24 @@
 
 .submenu1{
     width: max-content;
+    transform: rotate(25deg);
 }
 
 .submenu{
-    width: 2rem;
-    height: 2rem;
-    background-color: rebeccapurple;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
 .circle-menu-icon svg{
     width: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: rebeccapurple;
 }
 
 .trapezoid {
+    fill: #fff;
+    filter: drop-shadow(0 20px 10px #77738CA1);
 }
